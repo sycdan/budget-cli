@@ -3,7 +3,7 @@ import { Translator } from "./index.js";
 import { convertStringCurrencyToNumber } from "../utils/money.js";
 import { getFormattedDate } from "../utils/date.js";
 
-// TODO: Change the const name here and import ir in ../index.ts
+// TODO: Change the const name here and import it in ../index.ts
 export const boaTranslator: Translator = {
   // TODO: Change this to something useful
   name: "Name that appears during import",
