@@ -15,7 +15,7 @@ $ ./bin/run.js import "/path/to/directory/transactions.csv"
 By default, the script will only import transactions for the current year. To import from a year in the past (or, I guess, the future), add a `year` argument to the command.
 
 ```bash
-$ ./bin/run.js import '/path/to/directory' --year='2022'
+$ ./bin/run.js import "/path/to/directory" --year=2022
 ```
 
 If the command checks out, you will be prompted to confirm the import file. This will help you determine if the configuration file is working. Next, it will prompt you for the first CSV it finds from your import path. Answering `n` will move on to the next CSV found, if there is one. 
